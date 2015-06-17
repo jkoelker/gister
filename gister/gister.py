@@ -32,6 +32,7 @@ try:
 except ImportError:
     import configparser as ConfigParser
 
+
 def parse_arguments():
     parser = argparse.ArgumentParser(description='make gists!')
     parser.add_argument('-p', '--private', action='store_true',
