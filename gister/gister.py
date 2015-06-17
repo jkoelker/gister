@@ -174,7 +174,7 @@ def create_gist():
     else:
         url = public_gist_url(conf, args)
         token_name = 'public_oauth'
-    description = 'created by github.com/tr3buchet/gister'
+    description = 'created by https://github.com/tr3buchet/gister'
     if args.description:
         description = args.description
 
